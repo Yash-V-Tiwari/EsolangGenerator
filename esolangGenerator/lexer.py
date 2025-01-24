@@ -1,6 +1,11 @@
 import os
 import yaml
 
+# testing script for yaml
+# TODO: Remove and build template and template reader <-- Do this first 
+#       Build lexer that builds from template to perform lexical analysis
+#       Look into using c/cpp front end of LLVM (use llvmlite? JIT compilation supported)
+
 current_dir = os.getcwd()
 
 target_dir = "definition"
